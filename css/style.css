@@ -1,0 +1,135 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background: #161616;
+	overflow: hidden;
+	cursor: url(../images/cursor.png), auto !important;
+}
+
+.header{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: white;
+	z-index: 2;
+}
+
+.container {
+	position: absolute;
+	width: 200%;
+	height: 200vh;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+	margin: 4em 0;
+}
+
+.block {
+	width: 400px ;
+	height: 500px;
+	background: grey;
+	margin: 1em;
+	filter: grayscale(1);
+	opacity: 0.4;
+	transition: 1s;
+
+}
+
+.block:hover {
+	filter: grayscale(0);
+	opacity: 1;
+}
+
+.block-1{
+	background: url(../images/finalposter.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.block-2{
+	background: url(../images/posterbase.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.block-3{
+	background: url(../images/brushs.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-4{
+	background: url(../images/bubble.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-5{
+	background: url(../images/infolc.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-6{
+	background: url(../images/rough2.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-7{
+	background: url(../images/letterss.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-8{
+	background: url(../images/tcat.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-9{
+	background: url(../images/follows.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-10{
+	background: url(../images/water.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-11{
+	background: url(../images/cats.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-12{
+	background: url(../images/compute.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-13{
+	background: url(../images/turing.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-14{
+	background: url(../images/moving.gif) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-15{
+	background: url(../images/perspec.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-16{
+	background: url(../images/p5.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-17{
+	background: url(../images/git.png) no-repeat 50% 50%;
+	background-size: cover;
+}
+.block-18{
+	background: url(../images/sub.jpg) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+.block-19{
+	background: url(../images/square.gif) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+
+
+
+
+
+
